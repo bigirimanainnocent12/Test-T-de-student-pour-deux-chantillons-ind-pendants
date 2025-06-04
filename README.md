@@ -8,8 +8,8 @@
   * Les données sont enregistrées dans un fichier CSV.
 # *📊 Résultats statistiques*
   * Moyenne des poids :
-    * Manele : 2g
-    * Manala : 2g
+    * Manele : 110.39g
+    * Manala : 112.39g
 * Tests effectués :
     * Shapiro-Wilk (normalité) : p > 0.5 → distributions normales.
     * Fisher-Snedecor (égalité des variances) : p = 0.341 → variances égales.
@@ -26,8 +26,8 @@
  * Comparaison des effets à l’aide de tests statistiques.
 # *📊 Résultats statistiques*
  * Moyennes :
-   * Traitement A : plus élevé
-   * Traitement B : plus faible
+   * Traitement A : 78.84
+   * Traitement B : 65.75
  * Tests effectués :
    * Shapiro-Wilk : distributions normales.
    * Fisher-Snedecor : variances égales.
