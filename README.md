@@ -16,3 +16,21 @@
     * Test t de Student : t = 0.963, p = 0.340 → pas de différence significative.
 # *✅ Conclusion*
   * Il n’y a aucune différence significative de poids entre les brioches Manele et Manala.
+
+# *💊 Étude complémentaire : efficacité d’une molécule*
+# *🎯 Objectif*
+ * Évaluer l’effet d’une nouvelle molécule sur une mesure physiologique chez des patients.
+
+# *🧾 Méthodologie*
+ * Deux groupes de patients (Traitement A et B).
+ * Comparaison des effets à l’aide de tests statistiques.
+# *📊 Résultats statistiques*
+ * Moyennes :
+   * Traitement A : plus élevé
+   * Traitement B : plus faible
+ * Tests effectués :
+   * Shapiro-Wilk : distributions normales.
+   * Fisher-Snedecor : variances égales.
+   * Test t de Student : t = 4.08, p < 0.0001 → différence significative.
+# *✅ Conclusion* 
+ * La molécule testée est efficace pour augmenter la mesure physiologique.
