@@ -1,8 +1,8 @@
 # *🎯 Objectif général*
 Ce projet vise à comparer deux groupes indépendants à l’aide du test t de Student, dans deux contextes distincts :
 
-Comparaison de poids entre Manala et Manele (brioches alsaciennes)
-Évaluation de l’efficacité d’une molécule expérimentale sur une mesure physiologique
+- Comparaison de poids entre Manala et Manele (brioches alsaciennes)
+- Évaluation de l’efficacité d’une molécule expérimentale sur une mesure physiologique
 # *1. 🥐 Étude sur les brioches Manala vs Manele*
 
 *🔍 Problématique*
