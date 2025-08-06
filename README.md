@@ -1,36 +1,58 @@
-# *🧪 Analyse statistique : Manele vs Manala*
-# *🎯 Objectif*
-* Alice, récemment installée en Alsace, souhaite savoir s’il existe une différence de poids entre deux types de brioches locales : Manele et Manala.
+# *🎯 Objectif général*
+Ce projet vise à comparer deux groupes indépendants à l’aide du test t de Student, dans deux contextes distincts :
 
-# *🧾 Méthodologie*
-  * Un échantillon de brioches a été collecté auprès de plusieurs boulangers.
-  * Chaque brioche a été pesée avec la même balance.
-  * Les données sont enregistrées dans un fichier CSV.
-# *📊 Résultats statistiques*
-  * Moyenne des poids :
-    * Manele : 110.39g
-    * Manala : 112.39g
-* Tests effectués :
-    * Shapiro-Wilk (normalité) : p > 0.5 → distributions normales.
-    * Fisher-Snedecor (égalité des variances) : p = 0.341 → variances égales.
-    * Test t de Student : t = 0.963, p = 0.340 → pas de différence significative.
-# *✅ Conclusion*
-  * Il n’y a aucune différence significative de poids entre les brioches Manele et Manala.
+Comparaison de poids entre Manala et Manele (brioches alsaciennes)
+Évaluation de l’efficacité d’une molécule expérimentale sur une mesure physiologique
+*1. 🥐 Étude sur les brioches Manala vs Manele*
+🔍 Problématique
+Alice, récemment arrivée en Alsace, souhaite savoir s’il existe une différence de poids entre les brioches Manala et Manele.
 
-# *💊 Étude complémentaire : efficacité d’une molécule*
-# *🎯 Objectif*
- * Évaluer l’effet d’une nouvelle molécule sur une mesure physiologique chez des patients.
+📦 Données
+Fichier : Man.csv
+Variables : poids des brioches Manala et Manele (en grammes)
+📈 Étapes de l’analyse
+Statistiques descriptives : moyenne, écart-type, etc.
+Test de normalité (Shapiro-Wilk) : vérification de la distribution normale
+Visualisations : Q-Q plots, histogrammes avec courbes normales
+Test de Fisher-Snedecor : comparaison des variances
+Test t de Student : comparaison des moyennes
+Analyses complémentaires :
+Intervalle de confiance
+Taille d’effet (Cohen’s d)
+Bayes Factor (BF10)
+Puissance du test
+✅ Conclusion
+Aucune différence significative détectée entre les poids des deux types de brioches.
+Faible puissance du test → nécessité d’un échantillon plus grand pour confirmer.
+*2. 💊 Étude sur l’efficacité d’une molécule*
+🔍 Problématique
+Une entreprise pharmaceutique souhaite tester l’efficacité d’une nouvelle molécule sur une mesure physiologique.
 
-# *🧾 Méthodologie*
- * Deux groupes de patients (Traitement A et B).
- * Comparaison des effets à l’aide de tests statistiques.
-# *📊 Résultats statistiques*
- * Moyennes :
-   * Traitement A : 78.84
-   * Traitement B : 65.75
- * Tests effectués :
-   * Shapiro-Wilk : distributions normales.
-   * Fisher-Snedecor : variances égales.
-   * Test t de Student : t = 4.08, p < 0.0001 → différence significative.
-# *✅ Conclusion* 
- * La molécule testée est efficace pour augmenter la mesure physiologique.
+📦 Données
+Fichier : molecule.csv
+54 patients répartis aléatoirement :
+Groupe A : molécule
+Groupe B : placebo
+📈 Étapes de l’analyse
+Statistiques descriptives pour chaque groupe
+Test de normalité (Shapiro-Wilk) pour chaque groupe
+Test de Fisher-Snedecor pour l’égalité des variances
+Test t de Student unilatéral (greater) pour comparer les moyennes
+Analyses complémentaires :
+Intervalle de confiance
+Taille d’effet (Cohen’s d)
+Bayes Factor (BF10)
+Puissance du test
+✅ Conclusion
+La molécule a un effet significatif et important sur la mesure physiologique.
+Résultats soutenus par :
+p-value très faible
+Cohen’s d élevé
+BF10 très fort
+Puissance du test proche de 1
+🛠️ Technologies utilisées
+Python
+Pandas, NumPy
+Pingouin (tests statistiques)
+Seaborn, Matplotlib (visualisation)
+SciPy, Statsmodels
