@@ -11,65 +11,65 @@ Alice, récemment arrivée en Alsace, souhaite savoir s’il existe une différe
 
 **📦 Données**
 
-Fichier : Man.csv
-Variables : poids des brioches Manala et Manele (en grammes)
+- Fichier : Man.csv
+- Variables : poids des brioches Manala et Manele (en grammes)
 
 **📈 Étapes de l’analyse**
 
-Statistiques descriptives : moyenne, écart-type, etc.
-Test de normalité (Shapiro-Wilk) : vérification de la distribution normale
-Visualisations : Q-Q plots, histogrammes avec courbes normales
-Test de Fisher-Snedecor : comparaison des variances
-Test t de Student : comparaison des moyennes
-Analyses complémentaires :
-Intervalle de confiance
-Taille d’effet (Cohen’s d)
-Bayes Factor (BF10)
-Puissance du 
+- Statistiques descriptives : moyenne, écart-type, etc.
+- Test de normalité (Shapiro-Wilk) : vérification de la distribution normale
+- Visualisations : Q-Q plots, histogrammes avec courbes normales
+- Test de Fisher-Snedecor : comparaison des variances
+- Test t de Student : comparaison des moyennes
+- Analyses complémentaires :
+- Intervalle de confiance
+- Taille d’effet (Cohen’s d)
+- Bayes Factor (BF10)
+- Puissance du 
 
 **✅ Conclusion**
 
-Aucune différence significative détectée entre les poids des deux types de brioches.
-Faible puissance du test → nécessité d’un échantillon plus grand pour confirmer.
+- Aucune différence significative détectée entre les poids des deux types de brioches.
+- Faible puissance du test → nécessité d’un échantillon plus grand pour confirmer.
 
 # *2. 💊 Étude sur l’efficacité d’une molécule*
 
 **🔍 Problématique**
 
-Une entreprise pharmaceutique souhaite tester l’efficacité d’une nouvelle molécule sur une mesure physiologique.
+- Une entreprise pharmaceutique souhaite tester l’efficacité d’une nouvelle molécule sur une mesure physiologique.
 
 **📦 Données**
 
-Fichier : molecule.csv
-54 patients répartis aléatoirement :
-Groupe A : molécule
-Groupe B : placebo
+- Fichier : molecule.csv
+- 54 patients répartis aléatoirement :
+- Groupe A : molécule
+- Groupe B : placebo
 
 **📈 Étapes de l’analyse**
 
-Statistiques descriptives pour chaque groupe
-Test de normalité (Shapiro-Wilk) pour chaque groupe
-Test de Fisher-Snedecor pour l’égalité des variances
-Test t de Student unilatéral (greater) pour comparer les moyennes
-Analyses complémentaires :
-Intervalle de confiance
-Taille d’effet (Cohen’s d)
-Bayes Factor (BF10)
-Puissance du test
+- Statistiques descriptives pour chaque groupe
+- Test de normalité (Shapiro-Wilk) pour chaque groupe
+- Test de Fisher-Snedecor pour l’égalité des variances
+- Test t de Student unilatéral (greater) pour comparer les moyennes
+- Analyses complémentaires :
+- Intervalle de confiance
+- Taille d’effet (Cohen’s d)
+- Bayes Factor (BF10)
+- Puissance du test
 
 **✅ Conclusion**
 
-La molécule a un effet significatif et important sur la mesure physiologique.
-Résultats soutenus par :
-p-value très faible
-Cohen’s d élevé
-BF10 très fort
-Puissance du test proche de 1
+- La molécule a un effet significatif et important sur la mesure physiologique.
+- Résultats soutenus par :
+- p-value très faible
+- Cohen’s d élevé
+- BF10 très fort
+- Puissance du test proche de 1
 
 **🛠️ Technologies utilisées**
 
-Python
-Pandas, NumPy
-Pingouin (tests statistiques)
-Seaborn, Matplotlib (visualisation)
-SciPy, Statsmodels
+- Python
+- Pandas, NumPy
+- Pingouin (tests statistiques)
+- Seaborn, Matplotlib (visualisation)
+- SciPy, Statsmodels
